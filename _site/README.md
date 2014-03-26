@@ -1,8 +1,4 @@
-awolfe76.github.com
-===================
+awolfe76.github.io
+==================
 
-<<<<<<< HEAD
-Personal website
-=======
-My Site
->>>>>>> gh-pages
+Personal site
