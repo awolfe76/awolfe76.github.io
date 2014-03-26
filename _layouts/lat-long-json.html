@@ -1,0 +1,57 @@
+{% include header.html %}
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12">
+            <div id="json"></div>
+        </div>        
+    </div>
+</div></div>
+
+<div id="footer">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span12">
+        {% include nav.html %}
+        <div class="pull-right">
+          {% include github.html %}
+          {% include dribbble.html %}
+          {% include twitter.html %}
+        </div>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <div class="span12">
+        <a class="btn source" href="http://github.com/awolfe76/awolfe76.github.com">Source</a>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <div class="span12">
+        <p>{{ site.disclaimer }}</p>
+        <p>&copy; 2013 {{ site.name }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="/js/jquery-1.9.1.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    var parts = document.URL.split("?");
+    var latlong = parts[1].split("/");
+    var myurl = "http://www.broadbandmap.gov/broadbandmap/broadband/jun2012/wireline?latitude=+36.0741803&longitude=-105.4886080&format=jsonp";
+    $.ajax({
+        url:myurl,
+        dataType: 'jsonp',
+        success:function(jsonp) {
+            $("#json").html(JSON.stringify(jsonp));
+        },
+        error:function(){
+            $("#json").html("Something went terribly wrong.");
+        }
+    });
+}); 
+</script>
+
+<body>
+</html>

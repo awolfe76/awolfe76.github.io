@@ -1,0 +1,203 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter|Source+Sans+Pro:400,700);
+
+body {
+  background-color: #f5f5f5;
+  background-color: rgba(0, 0, 0, .05);
+  color: #353535;
+  font-family: "Bitter", Georgia, serif;
+  font-size: 18px;
+  line-height: 1.7;
+}
+.container-fluid {
+  margin: 0 auto;
+  max-width: 750px;
+}
+li { line-height: 1.7; }
+a:link, a:visited {
+  border-bottom: 1px solid #54B046;
+  border-bottom: 1px solid rgba(84, 176, 70, 1);
+  color: #000000;
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  transition: .75s;
+  -moz-transition: .75s; /* Firefox 4 */
+  -webkit-transition: .75s; /* Safari and Chrome */
+  -o-transition: .75s; /* Opera */
+}
+a:hover {
+  color: #54B046;
+  color: rgba(84, 176, 70, 1);
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #151515;
+  font-family: "Source Sans Pro", Calibri,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h1 {
+  font-size: 32px;
+  line-height: 1.3;
+}
+h3 { font-size: 24px; }
+h4 { font-size: 18px; }
+
+#header {
+  background-color: #0d0d0d;
+  background-color: rgba(0, 0, 0, .95);
+  color: #ffffff;
+  color: rgba(255, 255, 255, 1);
+  padding: 40px 0;
+}
+#header h1 {
+  margin-top: 0;
+}
+a.awolfe76:link, a.awolfe76:visited {
+  color: #ffffff;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Bitter", Georgia, serif;
+}
+a.awolfe76:hover {
+  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  color: #54B046;
+  color: rgba(84, 176, 70, 1);
+}
+a.btn {
+  border: 0 outset rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+}
+a.btn:link, a.btn:visited {
+  background-color: #54B046;
+  background-color: rgba(84, 176, 70, 1);
+  border: 0 outset rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  box-shadow: 0 0 0 rgba(255, 255, 255, 0) inset, 0 1px 2px rgba(0, 0, 0, 0);
+  color: #000000;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Source Sans Pro", Calibri,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-bottom: 0;
+  padding: 9px 12px 10px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  transition: .75s;
+  -moz-transition: .75s; /* Firefox 4 */
+  -webkit-transition: .75s; /* Safari and Chrome */
+  -o-transition: .75s; /* Opera */
+}
+a.btn:hover, a.btn.active {
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 1);
+  color: #ffffff;
+  color: rgba(255, 255, 255, 1);
+}
+a.source:link, a.source:visited {
+  background-color: #868686;
+  background-color: rgba(255, 255, 255, .2);
+}
+a.source:hover {
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 1);
+  color: #ffffff;
+  color: rgba(255, 255, 255, 1);
+}
+#footer a.source:link, #footer a.source:visited {
+  background-color: #868686;
+  background-color: rgba(0, 0, 0, .2);
+}
+#footer a.source:hover {
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 1);
+  color: #ffffff;
+  color: rgba(255, 255, 255, 1);
+}
+.content a.btn.archive {
+  margin-top:40px;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 1);
+  background-color: #ffffff;
+  padding-bottom: 40px;
+
+}
+.content h1 {
+  margin-top: 40px;
+}
+.content h3 {
+  margin-top: 30px;
+}
+.content img {
+  display: block;
+  margin: 20px auto;
+}
+.date {
+  color: #999999;
+  color: rgba(0, 0, 0, .5);
+  font-family: "Bitter", Georgia, serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+#json {
+  margin-top:40px;
+}
+
+#footer {
+  color: #999999;
+  font-size: 14px;
+  padding: 40px 0 30px;
+}
+#footer a.btn {
+  margin: 0 0 20px;
+}
+#footer a {
+  border-bottom: none;
+}
+
+.social { float: right; }
+.github {
+  fill: #4083C4;
+  transition: .75s;
+  -moz-transition: .75s; /* Firefox 4 */
+  -webkit-transition: .75s; /* Safari and Chrome */
+  -o-transition: .75s; /* Opera */
+}
+.dribbble {
+  fill: #EA548C;
+  transition: .75s;
+  -moz-transition: .75s; /* Firefox 4 */
+  -webkit-transition: .75s; /* Safari and Chrome */
+  -o-transition: .75s; /* Opera */
+}
+.twitter {
+  fill: #00BBF5;transition: .75s;
+  -moz-transition: .75s; /* Firefox 4 */
+  -webkit-transition: .75s; /* Safari and Chrome */
+  -o-transition: .75s; /* Opera */
+}
+.github:hover {
+  fill: #000000;
+}
+.dribbble:hover {
+  fill: #000000;
+}
+.twitter:hover {
+  fill: #000000;
+}
+
+@media (max-width: 767px) {
+  body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .container-fluid {
+    padding: 0 10px;
+  }
+  .social {
+    float: none;
+    margin-bottom: 20px;
+  }
+}

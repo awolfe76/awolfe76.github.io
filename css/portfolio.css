@@ -1,0 +1,207 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter|Source+Sans+Pro:400,700);
+
+body {
+  background-color: #f8f8f8;
+  background-color: rgba(0, 0, 0, .1);
+  color: #353535;
+  font-family: "Source Sans Pro", Calibri,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0 auto;
+}
+/* grid */
+.w {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+  max-width: 1600px;
+  *zoom: 1;
+}
+.w:before,
+.w:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.w:after { clear: both; }
+
+.r {
+    margin: 0;
+    width: 100%;
+    *zoom: 1;
+}
+.r:before,
+.r:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.r:after { clear: both; }
+
+.r [class*="c"] {
+    display: block;
+    float: left;
+    min-height: 30px;
+    padding: 15px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+.r [class*="c"]:first-child { margin-left: 0; }
+
+@media (min-width: 899px) {
+  .r [class*="c"] { width: 50%; }
+}
+
+img {
+  border-radius: 3px;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.15);
+  max-width: 100%;
+}
+a:link, a:visited {
+  border-bottom: 1px solid #54B046;
+  border-bottom: 1px solid rgba(84, 176, 70, 1);
+  color: #000000;
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  transition: .75s;
+  -moz-transition: .75s; /* Firefox 4 */
+  -webkit-transition: .75s; /* Safari and Chrome */
+  -o-transition: .75s; /* Opera */
+}
+a:hover {
+  color: #54B046;
+  color: rgba(84, 176, 70, 1);
+}
+h1, h2, h3, h4, h5, h6, p { margin: 0 0 5px 0;}
+p { margin-bottom: 30px; }
+h1, h2, h3, h4, h5, h6 {
+  color: #151515;
+  font-family: "Bitter", Georgia, serif;
+}
+h1 { font-size: 24px; }
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+h3 { font-size: 18px; }
+
+a.btn {
+  border: none;
+  margin-top: 10px;
+}
+a.btn:link, a.btn:visited {
+  background-color: #54B046;
+  background-color: rgba(84, 176, 70, 1);
+  border-radius: 2px;
+  color: #000000;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Source Sans Pro", Calibri,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  margin: 0;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  transition: .75s;
+  -moz-transition: .75s; /* Firefox 4 */
+  -webkit-transition: .75s; /* Safari and Chrome */
+  -o-transition: .75s; /* Opera */
+}
+a.btn:hover, a.btn.active {
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 1);
+  color: #ffffff;
+  color: rgba(255, 255, 255, 1);
+}
+
+header, footer {
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 40px;
+}
+
+.content article {
+  border-bottom: 1px solid #dddddd;
+  padding: 30px 0;
+}
+.content article:nth-child(odd) { background-color: #f5f5f5; }
+.about {
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 25px;
+}
+.about h1 {
+  border-bottom: 2px solid #dddddd;
+  margin-bottom: 20px;
+}
+.status em {
+  color: #999999;
+  display: inline-block;
+  font-size: 12px;
+}
+.status { margin-top: 20px; }
+.content img { margin-bottom: 20px;}
+
+.social { margin-top: 30px; }
+.social a:link, .social a:visited, .social a:hover {
+  text-decoration: none;
+  border-bottom: none;
+}
+.github {
+  fill: #4083C4;
+  transition: .75s;
+  -moz-transition: .75s; /* Firefox 4 */
+  -webkit-transition: .75s; /* Safari and Chrome */
+  -o-transition: .75s; /* Opera */
+}
+.dribbble {
+  fill: #EA548C;
+  transition: .75s;
+  -moz-transition: .75s; /* Firefox 4 */
+  -webkit-transition: .75s; /* Safari and Chrome */
+  -o-transition: .75s; /* Opera */
+}
+.twitter {
+  fill: #00BBF5;transition: .75s;
+  -moz-transition: .75s; /* Firefox 4 */
+  -webkit-transition: .75s; /* Safari and Chrome */
+  -o-transition: .75s; /* Opera */
+}
+.github:hover {
+  fill: #000000;
+}
+.dribbble:hover {
+  fill: #000000;
+}
+.twitter:hover {
+  fill: #000000;
+}
+
+footer {
+  color: #999999;
+  font-size: 14px;
+}
+footer .social {
+  float: right;
+  margin-top: 0;
+}
+
+@media (max-width: 767px) {
+  body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .container-fluid {
+    padding: 0 10px;
+  }
+  .social {
+    float: none;
+    margin-bottom: 20px;
+  }
+}

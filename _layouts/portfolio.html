@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Andrew Wolfe - Portfolio</title>
+  <meta charset='utf-8'>
+  <meta name="description" content="Andrew Wolfe - Portfolio">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" type="text/css" href="/css/portfolio.css" media="screen"/>
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
+  <![endif]-->
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40299604-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+</head>
+<body>
+  <header>
+    <h1>{{ page.title }}</h1>
+    {% for para in page.desc %}
+    <h2>{{ para.para }}</h2>
+    {% endfor %}
+    <div class="social">
+      {% include github.html %}
+      {% include dribbble.html %}
+      {% include twitter.html %}
+    </div>
+  </header>
+
+  <section class="content">
+    {% for proj in page.projects %}
+      <article>
+        <div class="w">
+          <div class="r">
+            <section class="c">
+              <div class="about">
+                <h1>{{ proj.title }}</h1>
+                <h3>My Role</h3>
+                <p>{{ proj.role }}</p>
+                <h3>Tools</h3>
+                <p>{{ proj.tools }}</p>
+                <div class="status">
+                  {% if proj.status != 'internal' %}
+                  {% if proj.url %}<a class="btn" href="{{ proj.url }}">Visit</a>{% endif %}
+                  {% endif %}
+                  {% if proj.status == 'dev' %}<em>In Development</em>{% endif %}
+                  {% if proj.status == 'internal' %}<em>Internal</em>{% endif %}
+                  {% if proj.status == 'soon' %}<em>Soon to be Released</em>{% endif %}
+                </div>
+              </div>
+            </section>
+            <section class="c">
+              {% for img in proj.images %}
+                <img src="img/portfolio/{{ img.path }}.jpg" />
+              {% endfor %}
+            </section>
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+  </section>
+
+  <footer>
+    <div class="social">
+      {% include github.html %}
+      {% include dribbble.html %}
+      {% include twitter.html %}
+    </div>
+    <p>&copy; 2013 {{ site.name }}</p>
+  </footer>
+</body>
+</html>

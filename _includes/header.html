@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ site.title }} - {{ page.title }}</title>
+  <meta charset='utf-8'>
+  <meta name="description" content="{{ page.desc }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" media="screen"/>
+  <link rel="stylesheet" type="text/css" href="/css/awolfe76.css" media="screen"/>
+
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
+  <![endif]-->
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40299604-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+</head>
+
+<body>
+<div id="header">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span6">
+        <h1><a class="awolfe76" href="/">{{ site.title }}</a></h1>
+      </div>
+      <div class="span6">
+        <p class="hidden-phone">{{ site.desc }}</p>
+        <p class="hidden-phone">{{ site.sub-desc }}</p>
+        {% include nav.html %}
+        {% include test/test.html %}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="content">
