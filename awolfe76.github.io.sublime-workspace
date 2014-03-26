@@ -1,0 +1,797 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"meta",
+				"meta_data"
+			],
+			[
+				"str_r",
+				"str_replace"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"strre",
+				"str_replace"
+			],
+			[
+				"cont",
+				"content_dir"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"in",
+				"in-nav"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"border-w",
+				"border-bottom-width"
+			],
+			[
+				"booster-he",
+				"booster-header"
+			],
+			[
+				"boost",
+				"booster-heading"
+			],
+			[
+				"boo",
+				"booster-heading"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.md",
+			"settings":
+			{
+				"buffer_size": 75,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/index.html",
+			"settings":
+			{
+				"buffer_size": 67,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/header.html",
+			"settings":
+			{
+				"buffer_size": 761,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 247,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/footer.html",
+			"settings":
+			{
+				"buffer_size": 17,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"File: Close All"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/andrewwolfe/Documents/projects/cost_model_illustration/_includes/header.html",
+		"/Applications/MAMP/htdocs/smplgrd/css/smplgrd.css",
+		"/Applications/MAMP/htdocs/james/css/smplgrd.css",
+		"/Applications/MAMP/htdocs/james/_layouts/index.html",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/css/awolfe76.css",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_includes/footer.html",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_posts/2013-06-28-agile-development-process-github-issues-revised.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_posts/2013-04-22-agile-development-process-github-issues.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_posts/2013-04-22-agile-development-process.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_posts/2013-06-28-github-agile-with-burn-chart.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_config.yml",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_posts/2013-04-19-helping-feomike.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_includes/dribbble.html",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_includes/github.html",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_includes/twitter.html",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/portfolio.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_layouts/portfolio.html",
+		"/Applications/MAMP/htdocs/sublime-projects/awolfe76.sublime-project",
+		"/Applications/MAMP/htdocs/sublime-projects/awolfe76.sublime-workspace",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_posts/2013-05-21-doing-what-i-can-to-contribute-to-project-open-data.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_posts/2013-05-16-doing-my-part-for-project-open-data.md",
+		"/Applications/MAMP/htdocs/project-open-data.github.io/policy-memo.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_layouts/link.html",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_layouts/lat-long-json.html",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_includes/nav.html",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_includes/header.html",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/lat-long-json.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/link.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/index.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_layouts/index.html",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_posts/2013-04-24-using-jekyll-to-build-fcc-data-visualizations.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_layouts/test.html",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_posts/2013-04-25-some-work-advice.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_posts/2013-04-22-i-am-a-web-designer-developer-but-read-the-job-description.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/archives.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_posts/2013-04-22-stop-centralizing-please.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_posts/2013-04-19-it-is-the-same-everywhere.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_posts/2013-03-15-cms-less.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_posts/2013-03-05-state-sequester-design.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_posts/2013-04-19-is-this-going-to-happen-again.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_layouts/archives.html",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_layouts/post-state-seq.html",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_layouts/post.html",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/.git/info/exclude",
+		"/Users/andrewwolfe/Downloads/v3-vector-social-icons 2/v3-circle.svg",
+		"/Users/andrewwolfe/.rvm/gems/ruby-2.0.0-p0/gems/jekyll-0.12.1/lib/jekyll/page.rb",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_plugins/post_data.rb",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_plugins/asset_url.rb",
+		"/Users/andrewwolfe/.rvm/gems/ruby-2.0.0-p0/gems/liquid-2.4.1/lib/liquid/standardfilters.rb",
+		"/Users/andrewwolfe/.rvm/gems/ruby-2.0.0-p0/gems/jekyll-0.12.1/lib/jekyll/site.rb",
+		"/Users/andrewwolfe/.rvm/gems/ruby-2.0.0-p0/gems/jekyll-0.12.1/lib/jekyll.rb",
+		"/Users/andrewwolfe/.rvm/gems/ruby-2.0.0-p0/gems/jekyll-0.12.1/lib/jekyll/post.rb",
+		"/Users/andrewwolfe/.rvm/gems/ruby-2.0.0-p0/gems/jekyll-0.12.1/lib/jekyll/tags/highlight.rb",
+		"/Users/andrewwolfe/.rvm/gems/ruby-2.0.0-p0/gems/jekyll-0.12.1/lib/jekyll/tags/include.rb",
+		"/Users/andrewwolfe/.rvm/gems/ruby-2.0.0-p0/gems/jekyll-0.12.1/lib/jekyll/tags/post_url.rb",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/test.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_plugins/random.rb",
+		"/Users/andrewwolfe/.rvm/gems/ruby-2.0.0-p0/gems/liquid-2.4.1/lib/liquid/tags/for.rb",
+		"/Users/andrewwolfe/.rvm/gems/ruby-2.0.0-p0/gems/liquid-2.4.1/lib/liquid/tags/if.rb",
+		"/Applications/MAMP/htdocs/state_seq/_layouts/default.html",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_site/css/awolfe76.css",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_posts/2013-03-15-is-this-going-to-happen-again.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_posts/2013-03-15-state-sequester-design.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_layouts/about.html",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/about.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_tests/2013-03-15-cms-less.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_tests/2013-03-15-is-this-going-to-happen-again.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_tests/2013-03-15-state-sequester-design.md",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/_posts/2013-03-15-test-post.md",
+		"/Applications/MAMP/htdocs/gysc.github.com/_layouts/page.html",
+		"/Applications/MAMP/htdocs/awolfe76.github.com/css/grid.css",
+		"/Applications/MAMP/htdocs/andrew/awolfe76.github.com/index.html",
+		"/Applications/MAMP/htdocs/andrew/awolfe76/index.html",
+		"/Users/andrewwolfe/Downloads/doc/info.json",
+		"/Users/andrewwolfe/Downloads/doc/doc.html",
+		"/Applications/MAMP/htdocs/andrew/awolfe76/css/awolfe76.github.css",
+		"/Applications/MAMP/htdocs/andrew/awolfe76.github.com/css/bootstrap.css",
+		"/Applications/MAMP/conf/apache/httpd.conf",
+		"/Applications/MAMP/htdocs/andrew/awolfe76/because.html",
+		"/Users/andrewwolfe/Downloads/doc/page-1.svg",
+		"/Users/andrewwolfe/Downloads/doc.zip",
+		"/Applications/MAMP/htdocs/andrew/awolfe76/examples/basic.html",
+		"/Applications/MAMP/htdocs/andrew/awolfe76/css/jquery.pageslide.css",
+		"/Applications/MAMP/htdocs/andrew/awolfe76/examples/responsive.html",
+		"/Applications/MAMP/htdocs/andrew/awolfe76/_nav-blog.html",
+		"/Applications/MAMP/htdocs/andrew/awolfe76/_nav.html",
+		"/Applications/MAMP/htdocs/andrew/awolfe76/css/bootstrap.css",
+		"/Applications/MAMP/htdocs/andrew/services/index.html",
+		"/Applications/MAMP/htdocs/andrew/awolfe76.github.com/_includes/main-nav.html",
+		"/Applications/MAMP/htdocs/andrew/awolfe76.github.com/_layouts/work.html",
+		"/Applications/MAMP/htdocs/andrew/awolfe76.github.com/_layouts/works.html",
+		"/Applications/MAMP/htdocs/andrew/awolfe76.github.com/_includes/head.html",
+		"/Applications/MAMP/htdocs/andrew/awolfe76.github.com/css/awolfe76.css",
+		"/Applications/MAMP/htdocs/andrew/awolfe76.github.com/_includes/footer.html",
+		"/Applications/MAMP/htdocs/andrew/awolfe76.github.com/_layouts/post.html",
+		"/Applications/MAMP/htdocs/andrew/awolfe76.github.com/_layouts/about.html",
+		"/Applications/MAMP/htdocs/andrew/awolfe76.github.com/_layouts/home.html",
+		"/Applications/MAMP/htdocs/andrew/awolfe76.github.com/_layouts/blog.html",
+		"/Applications/MAMP/htdocs/andrew/awolfe76.github.com/_posts/2012-12-01-getting-started-with-git-pages.md",
+		"/Applications/MAMP/htdocs/andrew/awolfe76.github.com/html-templates/index.html",
+		"/Applications/MAMP/htdocs/andrew/awolfe76.github.com/work.html",
+		"/Applications/MAMP/htdocs/andrew/awolfe76.github.com/about.html",
+		"/Applications/MAMP/htdocs/andrew/awolfe76.github.com/_config.yml",
+		"/Applications/MAMP/htdocs/andrew/awolfe76.github.com/.gitignore",
+		"/Applications/MAMP/htdocs/andrew/awolfe76.github.com/_posts/2012-12-02-fcc-wireless-spectrum-services.md",
+		"/Applications/MAMP/htdocs/andrew/index.html",
+		"/Applications/MAMP/htdocs/andrew/awolfe76.github.com/_work/2012-12-01-fcc-wireless-spectrum-services.md",
+		"/Applications/MAMP/htdocs/andrew/andrewwolfe.github.com/_config.yml",
+		"/Applications/MAMP/htdocs/andrew/andrewwolfe.github.com/_layouts/home.html",
+		"/Applications/MAMP/htdocs/andrew/andrewwolfe.github.com/index.html",
+		"/Applications/MAMP/htdocs/andrew/build/includes/spyc.yaml",
+		"/Applications/MAMP/htdocs/andrew/build/content/work/work-test.md",
+		"/Applications/MAMP/htdocs/andrew/build/content/pages/page-test.md",
+		"/Applications/MAMP/htdocs/andrew/build/content/posts/how-i-built-this-site.md",
+		"/Applications/MAMP/htdocs/andrew/build/content/work/fcc-spectrum.md",
+		"/Applications/MAMP/htdocs/andrew/build/content/posts/post-test.md",
+		"/Applications/MAMP/htdocs/andrew/build/content/work/fcc-gov.md",
+		"/Applications/MAMP/htdocs/andrew/build/templates/head.inc.php",
+		"/Applications/MAMP/htdocs/andrew/build/templates/includes/footer.inc.php",
+		"/Applications/MAMP/htdocs/andrew/build/templates/includes/content.inc.php",
+		"/Applications/MAMP/htdocs/andrew/build/templates/includes/header.inc.php",
+		"/Applications/MAMP/htdocs/andrew/build/build.php",
+		"/Applications/MAMP/htdocs/andrew/build/templates/footer.inc.php",
+		"/Applications/MAMP/htdocs/andrew/css/andrew.css",
+		"/Applications/MAMP/htdocs/andrew/build/includes/yaml-load.php",
+		"/Applications/MAMP/htdocs/andrew/build/config.php",
+		"/Applications/MAMP/htdocs/andrew/build/content/pages/about.md",
+		"/Applications/MAMP/htdocs/andrew/about.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Java Script",
+			");\n",
+			"\"tab_size\": 4,",
+			"tab",
+			"1s;",
+			"go__",
+			";\n",
+			"read_yaml",
+			"data",
+			"tokens",
+			"ext",
+			"process",
+			"categories",
+			"published",
+			"valid",
+			"site_pay",
+			"layouts",
+			"setup",
+			");\n",
+			"img",
+			"git",
+			">\n",
+			"article",
+			"span3",
+			"content",
+			"include_once(\"navbar_out.php\");",
+			"placeholder",
+			"0px 1px 2px 2px #ccc",
+			"3px 3px 5px 6px #ccc",
+			"file s"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			".75s;",
+			"span6",
+			"include_once(\"navbar.php\");",
+			"<?php include_once(\"navbar_out.php\"); ?>",
+			"<?php if ($_GET['edit']==='true') { ?> placeholder",
+			"0px 1px 1px 1px #ccc",
+			"0px 1px 2px 2px #ccc"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.md",
+					"settings":
+					{
+						"buffer_size": 75,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Jekyll/Syntaxes/Markdown (Jekyll).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_layouts/index.html",
+					"settings":
+					{
+						"buffer_size": 67,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								38
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_includes/header.html",
+					"settings":
+					{
+						"buffer_size": 761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								680,
+								680
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_config.yml",
+					"settings":
+					{
+						"buffer_size": 247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								247,
+								247
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_includes/footer.html",
+					"settings":
+					{
+						"buffer_size": 17,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17,
+								17
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 344.0,
+	"status_bar_visible": true
+}
