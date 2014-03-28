@@ -38,4 +38,4 @@ dist
 node_modules
 .tmp
 
-_site/
+_site*
