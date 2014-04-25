@@ -4,7 +4,7 @@ layout: portfolio
 title: Hi. My name is Andrew Wolfe.
 desc:
   - para: I'm a web designer, front end developer currently working at the FCC. Below are some of my projects.
-  - para: In my spare time I have been using some new tools to improve my workflow Grunt.js and Sass and others.
+  - para: In my spare time I have been using some new tools to improve my workflow, like Grunt.js and Sass and others.
 projects:
   - project:
     title: AM Tower Locator
