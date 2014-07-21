@@ -9,10 +9,24 @@
     <meta name="keywords" content="{{ page.keywords }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-    <link rel="stylesheet" href="awolfe76.github.io.css">
+    <script src='//api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js'></script>
+    <link href='//api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css' rel='stylesheet' />
+    <!--[if lte IE 8]>
+      <link href='//api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.ie.css' rel='stylesheet'>
+    <![endif]-->
+    <link rel="stylesheet" href="/css/awolfe76.github.io.css">
   </head>
   <body>
-    <header>
-      <h4>{{ site.title }}</h4>
-      <h5>{{ site.desc }} at <a href="{{ site.employer.url }}">{{ site.employer.abbr }}</a></h5>
-    </header>
+    <!--<header>
+      <div class="container">
+        <nav>
+          <a href="#blog">Blog</a>
+          <a class="active" href="#port">Work</a>
+          <a href="#about">About</a>
+        </nav>
+        <hgroup>
+          <h1>Hi! I'm {{ site.data.me.name }}.</h1>
+          <h2>I'm a {{ site.data.me.job-title | downcase }} <span>at the</span> <a href="{{ site.data.me.employer.url }}">{{ site.data.me.employer.abbr }}</a>.</h2>
+        </hgroup>
+      </div>
+    </header>-->

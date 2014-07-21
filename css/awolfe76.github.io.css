@@ -1,0 +1,311 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,700,900);
+/*
+Positioning
+Box model
+Typographic
+Visual
+*/
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+html,
+body { height: 100%; }
+
+html {
+  /*background-image:
+    linear-gradient(
+      to bottom, 
+      #050914, #0D6ABE
+    );*/
+}
+
+body {
+  color: #555;
+  font: 400 16px/1.45 "Source Sans Pro", Helvetica, Calibri, Arial, sans-serif;
+  margin: 0;
+  padding: 50px;
+}
+img {
+  max-width: 100%;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+header {
+  border-right: 2px solid #e6eaec;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  padding: 75px 10px 0;
+  position: fixed;
+  top: 0;
+  width: 300px;
+}
+.bio {
+  text-align: center;
+}
+.avatar {
+  background: #ddd;
+  border-radius: 50px;
+  height: 100px;
+  margin: 0 auto;
+  width: 100px;
+}
+hgroup {
+  margin-bottom: 20px;
+}
+h1, h2, h3, h4, h6 {
+  line-height: 1.2;
+  margin: 22px 0 8px;
+}
+h1 {
+  color: #1a1e22;
+  font-size: 18px;
+  font-weight: 600;
+}
+h2 {
+  color: #777;
+  font-size: 16px;
+  font-weight: 400;
+}
+h6 {
+  color: #777;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+main {
+  left: 300px;
+  padding-bottom: 75px;
+  max-width: 500px;
+  position: absolute;
+  top: 25px;
+}
+.piece {
+  width: 100%;
+}
+.shot {
+  border-radius: 2px;
+}
+h3 {
+  color: #1a1e22;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+h4 {
+  color: #1a1e22;
+  font-size: 18px;
+  font-weight: 600;
+}
+p {
+  margin-bottom: 20px;
+}
+/*
+.skills span {
+  color: #777;
+  display: inline-block;
+  margin: 2px 5px 0 0;
+}
+.skills span.html {
+  color: #f0662d;
+}
+.skills span.css {
+  color: #28a9e1;
+}
+.skills span.js {
+  color: #f1da4e;
+}
+.skills span.jquery {
+  color: #156aaa;
+}
+.skills span.mapbox {
+  color: #41b0cd;
+}
+.skills span.highcharts {
+  color: #615e72;
+}
+.skills span.mustache {
+  color: #000;
+}
+.skills span.jekyll {
+  color: #df4747;
+}
+.skills span.git {
+  color: #f34f29;
+}
+.skills span.github {
+  color: #211f20;
+}
+.skills span.php {
+  color: #4f5b93;
+}
+.skills span.google-maps {
+  color: #dd4839;
+}*/
+.post {
+  max-width: 500px;
+  position: relative;
+}
+aside {
+  border-left: 2px solid #e6eaec;
+  font-size: 14px;
+  left: 530px;
+  padding-left: 10px;
+  position: absolute;
+  width: 270px;
+}
+.post aside p:last-child {
+  margin-bottom: 0;
+}
+.post aside .img {
+  background: #ddd;
+  border-radius: 2px;
+  height: 200px;
+  width: 100%;
+}
+.intro {
+  font-size: 16px;
+}
+
+/* html 5 */
+section,
+header,
+figure,
+footer { display: block; }
+
+figure {
+  margin: 0;
+}
+
+a:link {
+  color: #052951;
+  text-decoration: none;
+  border-bottom: 2px solid;
+}
+a:visited { color: #b10dc9; }
+a:hover, a:active {
+  color: #ff4136; 
+  text-decoration: none;
+}
+a.btn {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+
+p { margin: 0 0 20px; }
+.date {
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #7a7975;
+  text-transform: uppercase;
+}
+.intro { font-size: 18px; }
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 50px 0;
+  width: 100px;
+}
+hgroup hr {
+  width: 100px;
+  margin: 20px auto 5px;
+}
+
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+.work {
+  border: 1px solid #ddd;
+  margin-bottom: 50px;
+}
+/*@media (min-width: 800px) {
+  .work {
+    border-radius: 2px;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, .15);
+    float: left;
+    margin-bottom: 0;
+    margin: 0 1% 30px;
+    width: 48%;
+  }
+  .work:first-child {
+    width: 98%;
+  }
+}*/
+figcaption {
+  padding: 10px;
+}
+figcaption {
+  
+}
+.work hgroup {
+ text-align: center;
+}
+
+nav { margin: 0 0 20px; }
+
+header a:visited { color: #0074d9; }
+header a:hover { color: #ff4136; }
+header nav a {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+header nav a.active { color: #ff4136; }
+
+
+.figure {
+  margin: 10px;
+  border-radius: 2px;
+  height: 225px;
+  margin-bottom: 10px;
+}
+.figure.img {
+  overflow: hidden;
+  padding-top: 10px;
+  text-align: center;
+}
+figure .link {
+  background: #f5f5f5;
+  border-top: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}

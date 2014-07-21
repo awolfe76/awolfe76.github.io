@@ -4,12 +4,80 @@
 		"selected_items":
 		[
 			[
+				"border",
+				"border"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
 				"mar",
-				"margin-top"
+				"margin"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"bor",
+				"border-bottom"
 			],
 			[
 				"marg",
-				"margin-top"
+				"margin-bottom"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"in",
+				"intro"
+			],
+			[
+				"backr",
+				"background-color"
+			],
+			[
+				"fig",
+				"figcaption"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"margin-",
+				"margin-left"
 			],
 			[
 				"inlin",
@@ -20,16 +88,8 @@
 				"font-size"
 			],
 			[
-				"tex",
-				"text-align"
-			],
-			[
 				"inl",
 				"inline-block"
-			],
-			[
-				"border",
-				"border-bottom"
 			],
 			[
 				"border-r",
@@ -38,18 +98,6 @@
 			[
 				"bo",
 				"border-bottom"
-			],
-			[
-				"text",
-				"text-decoration"
-			],
-			[
-				"margin-",
-				"margin-top"
-			],
-			[
-				"ma",
-				"margin-bottom"
 			],
 			[
 				"print",
@@ -80,10 +128,6 @@
 				"padding"
 			],
 			[
-				"in",
-				"in-nav"
-			],
-			[
 				"php",
 				"php"
 			],
@@ -102,44 +146,24 @@
 			[
 				"boo",
 				"booster-heading"
-			],
-			[
-				"back",
-				"background-color"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "index.md",
+			"file": "css/awolfe76.github.io.css",
 			"settings":
 			{
-				"buffer_size": 75,
+				"buffer_size": 3254,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_layouts/index.html",
+			"file": "_layouts/work.html",
 			"settings":
 			{
-				"buffer_size": 67,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_includes/header.html",
-			"settings":
-			{
-				"buffer_size": 761,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_config.yml",
-			"settings":
-			{
-				"buffer_size": 247,
+				"buffer_size": 2879,
 				"line_ending": "Unix"
 			}
 		},
@@ -147,7 +171,7 @@
 			"file": "_includes/footer.html",
 			"settings":
 			{
-				"buffer_size": 17,
+				"buffer_size": 4060,
 				"line_ending": "Unix"
 			}
 		}
@@ -180,7 +204,27 @@
 	},
 	"file_history":
 	[
+		"/Users/andrewwolfe/Documents/projects/awolfe76.github.io/_layouts/blog.html",
+		"/Users/andrewwolfe/Documents/projects/awolfe76.github.io/_data/work.yml",
+		"/Users/andrewwolfe/Documents/projects/awolfe76.github.io/_includes/footer.html",
+		"/Users/andrewwolfe/Documents/projects/awolfe76.github.io/_includes/header.html",
+		"/Users/andrewwolfe/Documents/projects/awolfe76.github.io/blog.md",
+		"/Users/andrewwolfe/Documents/projects/awolfe76.github.io/_layouts/work.html",
+		"/Users/andrewwolfe/Documents/projects/awolfe76.github.io/css/awolfe76.github.io.css",
+		"/Users/andrewwolfe/Documents/projects/awolfe76.github.io/work.md",
+		"/Users/andrewwolfe/Documents/projects/awolfe76.github.io/index.md",
+		"/Users/andrewwolfe/Documents/projects/awolfe76.github.io/_data/me.yml",
+		"/Users/andrewwolfe/Documents/projects/demo/css/styles.css",
+		"/Applications/MAMP/htdocs/competition-reports/_includes/footer.html",
+		"/Users/andrewwolfe/Documents/projects/mmba-first-viz/_layouts/map.html",
+		"/Users/andrewwolfe/Documents/projects/mmba-first-viz/_includes/footer.html",
+		"/Users/andrewwolfe/Documents/projects/cost_model_illustration/_includes/footer.html",
+		"/Users/andrewwolfe/Documents/projects/awolfe76.github.io/_layouts/index.html",
+		"/Users/andrewwolfe/Documents/projects/mmba-first-viz/_includes/header.html",
+		"/Users/andrewwolfe/Documents/projects/awolfe76.github.io/_config.yml",
+		"/Users/andrewwolfe/Documents/projects/cost_model_illustration/_layouts/map.html",
 		"/Users/andrewwolfe/Documents/projects/cost_model_illustration/_includes/header.html",
+		"/Users/andrewwolfe/Documents/projects/cost_model_illustration/_includes/data.html",
 		"/Applications/MAMP/htdocs/smplgrd/css/smplgrd.css",
 		"/Applications/MAMP/htdocs/james/css/smplgrd.css",
 		"/Applications/MAMP/htdocs/james/_layouts/index.html",
@@ -287,27 +331,7 @@
 		"/Applications/MAMP/htdocs/andrew/awolfe76.github.com/_posts/2012-12-02-fcc-wireless-spectrum-services.md",
 		"/Applications/MAMP/htdocs/andrew/index.html",
 		"/Applications/MAMP/htdocs/andrew/awolfe76.github.com/_work/2012-12-01-fcc-wireless-spectrum-services.md",
-		"/Applications/MAMP/htdocs/andrew/andrewwolfe.github.com/_config.yml",
-		"/Applications/MAMP/htdocs/andrew/andrewwolfe.github.com/_layouts/home.html",
-		"/Applications/MAMP/htdocs/andrew/andrewwolfe.github.com/index.html",
-		"/Applications/MAMP/htdocs/andrew/build/includes/spyc.yaml",
-		"/Applications/MAMP/htdocs/andrew/build/content/work/work-test.md",
-		"/Applications/MAMP/htdocs/andrew/build/content/pages/page-test.md",
-		"/Applications/MAMP/htdocs/andrew/build/content/posts/how-i-built-this-site.md",
-		"/Applications/MAMP/htdocs/andrew/build/content/work/fcc-spectrum.md",
-		"/Applications/MAMP/htdocs/andrew/build/content/posts/post-test.md",
-		"/Applications/MAMP/htdocs/andrew/build/content/work/fcc-gov.md",
-		"/Applications/MAMP/htdocs/andrew/build/templates/head.inc.php",
-		"/Applications/MAMP/htdocs/andrew/build/templates/includes/footer.inc.php",
-		"/Applications/MAMP/htdocs/andrew/build/templates/includes/content.inc.php",
-		"/Applications/MAMP/htdocs/andrew/build/templates/includes/header.inc.php",
-		"/Applications/MAMP/htdocs/andrew/build/build.php",
-		"/Applications/MAMP/htdocs/andrew/build/templates/footer.inc.php",
-		"/Applications/MAMP/htdocs/andrew/css/andrew.css",
-		"/Applications/MAMP/htdocs/andrew/build/includes/yaml-load.php",
-		"/Applications/MAMP/htdocs/andrew/build/config.php",
-		"/Applications/MAMP/htdocs/andrew/build/content/pages/about.md",
-		"/Applications/MAMP/htdocs/andrew/about.html"
+		"/Applications/MAMP/htdocs/andrew/andrewwolfe.github.com/_config.yml"
 	],
 	"find":
 	{
@@ -326,6 +350,64 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1EB848",
+			">\n",
+			"\n  <hr>",
+			"h2",
+			"h1",
+			"2px",
+			"3",
+			"2",
+			"work cf",
+			"500px",
+			"h4",
+			"h3",
+			" style=\"padding: 10px 0; width: 100%;\"",
+			" style=\"float:none; width: 100%; padding: 10px 0;\"",
+			" style=\"margin: 0 0 10px 0\"",
+			" style=\"margin-bottom: 0;\"",
+			" style=\"margin-top: 0;\"",
+			" style=\"margin: 0 0 10px;; padding: 0;\"",
+			"container",
+			"margin-bottom: 60px;",
+			"100px",
+			"color: #fff;  ",
+			"div",
+			" style=\"text-align: center;\"",
+			"<div class=\"container\" style=\"border-radius: 3px;background-color: #fff; box-shadow: 0 3px 1px rgba(0,0,0,.1); padding:20px;margin-bottom: 20px;\">",
+			"10px 20px;",
+			"margin: 0 auto 10px;",
+			"border-radius: 0 0 2px 2px; ",
+			"color:",
+			" margin-bottom: 10px;",
+			" margin-bottom: 30px;",
+			" style=\"border-top: 2px solid #ddd; border-bottom: 2px solid #ddd;",
+			"width: 500px; ",
+			"ddd",
+			"SlateBlue",
+			"border-r",
+			"10px",
+			"border-r",
+			"stationMap",
+			"_____",
+			"</p>",
+			"    <p>",
+			">.\n",
+			"</p>",
+			"<p>",
+			"2px 3px",
+			"rgba(72, 61, 139, .15)",
+			"25",
+			"rgb(72, 61, 139)",
+			"SlateBlue",
+			"#eee",
+			"ccc",
+			"3px 3px 5px 6px #ccc;",
+			"media",
+			"img",
+			"nav",
+			"FF6347",
+			"FDBE31",
 			"Java Script",
 			");\n",
 			"\"tab_size\": 4,",
@@ -380,23 +462,23 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.md",
+					"file": "css/awolfe76.github.io.css",
 					"settings":
 					{
-						"buffer_size": 75,
+						"buffer_size": 3254,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								75,
-								75
+								2806,
+								2810
 							]
 						],
 						"settings":
@@ -445,28 +527,30 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/Jekyll/Syntaxes/Markdown (Jekyll).tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2348.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "_layouts/index.html",
+					"file": "_layouts/work.html",
 					"settings":
 					{
-						"buffer_size": 67,
+						"buffer_size": 2879,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								38,
-								38
+								57,
+								57
 							]
 						],
 						"settings":
@@ -515,7 +599,9 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage"
+							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -525,158 +611,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "_includes/header.html",
-					"settings":
-					{
-						"buffer_size": 761,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								680,
-								680
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "_config.yml",
-					"settings":
-					{
-						"buffer_size": 247,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								247,
-								247
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/YAML/YAML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "_includes/footer.html",
 					"settings":
 					{
-						"buffer_size": 17,
+						"buffer_size": 4060,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17,
-								17
+								3218,
+								3218
 							]
 						],
 						"settings":
@@ -725,10 +671,12 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage"
+							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1577.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

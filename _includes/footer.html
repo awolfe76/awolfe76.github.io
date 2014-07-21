@@ -1,2 +1,153 @@
+  <script src='//code.jquery.com/jquery-1.11.0.min.js'></script>
+  <script src="/js/highcharts.js"></script>
+  <script>
+  $(document).ready(function () {
+    //$('.work').css("height", $(window).height());
+
+    if($('#map').length > 0) {
+      var map = L.mapbox.map('map', 'awolfe76.awolfe76', {attributionControl: false, zoomControl: false})
+        .setView([39.705886, -78.784158], 7);;
+      map.scrollWheelZoom.disable();
+      map.touchZoom.disable();
+      map.doubleClickZoom.disable();
+      // disable tap handler, if present.
+      if (map.tap) map.tap.disable();
+
+      $("#tdec").click(function(event) {
+        event.preventDefault();
+        map.panTo([39.402362,-79.400182]);
+      });
+
+      $("#england").click(function(event) {
+        event.preventDefault();
+        map.panTo([53.9926309,-1.5429454]);
+      });
+
+      $("#esd").click(function(event) {
+        event.preventDefault();
+        map.panTo([39.081822,-76.866185]);
+      });
+
+      $("#lockheed").click(function(event) {
+        event.preventDefault();
+        map.panTo([28.4449307,-81.4622605]);
+      });
+
+      $("#uscg").click(function(event) {
+        event.preventDefault();
+        map.panTo([39.396614,-77.91359]);
+      });
+
+      $("#fcc").click(function(event) {
+        event.preventDefault();
+        map.panTo([39.8254453,-77.257688]);
+      });
+    }
+
+    if($('#chart').length > 0) {
+      // chart 
+      $('#chart').highcharts({
+        chart: {
+          borderRadius: 0,
+          type: 'line',
+          margin: [0, 0, 0, 0],
+          spacing: [0, 0, 0, 0],
+          backgroundColor: '#111'
+        },
+        colors: [
+          '#fff'
+        ],
+        title: {
+          text: null
+        },
+        xAxis: {
+          labels: {
+            enabled: false
+          },
+          title: {
+            text: null
+          },
+          categories: ["'93", "'94", "'95", "'96", "'97", "'98", "'99", "'00", "'01", "'02", "'03", "'04", "'05", "'06", "'07", "'08", "'09", "'10", "'11"],
+          lineWidth: 0,
+          tickWidth: 0
+        },
+        plotOptions: {
+          series: {
+            states: {
+              hover: {
+                enabled: false
+              }
+            }
+          }
+        },
+        yAxis: {
+          gridLineWidth: 0,
+          max: 90,
+          min: 20,
+          title: {
+            text: null
+          },
+          labels: {
+            enabled: false
+          }
+        },
+        tooltip: {
+          enabled: false,
+        },
+        legend: {
+          enabled: false
+        },
+        series:
+        [{
+          name: 'Avg Monthly Bill',
+          data: [61.49, 56.21, 69.00, 47.70, 35.78, 39.43, 65.24, 88.27, 53.37, 48.40, 58.91, 50.64, 26.98, 65.56, 49.79, 39.07, 48.16, 47.21, 53.00],
+          marker: {
+            enabled: false
+            /*fillColor: 'white',
+            lineWidth: 1,
+            lineColor: 'white',
+            states: {
+              hover: {
+                lineColor: 'MediumSlateBlue',
+                lineWidth: 5
+              }
+            }*/
+          },
+          lineWidth: 3,
+        }],
+        credits: {
+          enabled: false
+        }
+      });
+    }
+
+    $('.highcharts-container').css('top', '-1px');
+
+    if($('#am-tower').length > 0) {
+      // am tower
+      var towerIcon = L.icon({
+        className: 'tower-marker',
+        iconUrl: '/img/marker-tower-2x.png',
+        iconSize: [25, 25]
+      });
+      var notifyIcon = L.icon({
+        iconUrl: '/img/marker-notify-2x.png',
+        iconSize: [25, 25]
+      });
+      var amtower = L.mapbox.map('am-tower', 'fcc.map-fd8wksyc', {zoomControl: false}).setView([40.8039, -74.1064], 12);
+      // no need for zoom, etc
+      amtower.dragging.disable();
+      amtower.touchZoom.disable();
+      amtower.doubleClickZoom.disable();
+      amtower.scrollWheelZoom.disable();
+      L.marker([40.8039, -74.1064], {
+        icon: towerIcon
+      }).addTo(amtower);
+      L.marker([40.796767, -74.101253], {
+        icon: notifyIcon
+      }).addTo(amtower);
+    }
+  });
+  </script>
   </body>
 </html>
