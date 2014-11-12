@@ -1,0 +1,22 @@
+body {
+  color: $dark;
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+a:link {
+  color: $link;
+  text-decoration: none;
+}
+a:visited {
+  color: $visited;
+  text-decoration: none;
+}
+a:hover {
+  color: $hover;
+  text-decoration: underline;
+}
+
+p {
+  margin: 0 0 20px;
+}
