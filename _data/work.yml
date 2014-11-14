@@ -1,72 +1,49 @@
 - title: The State of Our Roads and Bridges
+  subtitle: Your state's roads and bridges — what's at risk
   desc: If Congress fails to reauthorize funding to repair our crumbling infrastructure by September 30, it will have very real consequences for all 50 states.
   img: roads-and-bridges.jpg
   url: http://awolfe76.github.io/the-state-of-our-roads-and-bridges/
   with: Mike Byrne, Eric Spry
   skills: Design, Development
-- title: Ambassador Program
-  desc: The FCC Chairman's Ambassador Program was launched in May of 2014, as an invitation to public sector problem-solvers to partner with the FCC.
-  img: fcc-ambassador-program.jpg
-  url: http://awolfe76.github.io/the-state-of-our-roads-and-bridges/
-  with: FCC
-  skills: Design, Development
-- title: The State of Our Roads and Bridges
-  desc: If Congress fails to reauthorize funding to repair our crumbling infrastructure by September 30, it will have very real consequences for all 50 states.
-  img: roads-and-bridges.jpg
-  url: http://awolfe76.github.io/the-state-of-our-roads-and-bridges/
+- title: Visualizing Mobile Broadband
+  subtitle: Results from the FCC Speed Test
+  desc: This visualization displays results from the FCC Speed Test app. This Android/iPhone app allows users to measure their mobile broadband performance and voluntarily report this data to the FCC. 
+  img: mmba.jpg
+  url: http://fcc.github.io/mmba/
   with: Mike Byrne, Eric Spry
   skills: Design, Development
-- title: Ambassador Program
-  desc: The FCC Chairman's Ambassador Program was launched in May of 2014, as an invitation to public sector problem-solvers to partner with the FCC.
-  img: fcc-ambassador-program.jpg
-  url: http://awolfe76.github.io/the-state-of-our-roads-and-bridges/
-  with: FCC
-  skills: Design, Development
-- title: The State of Our Roads and Bridges
-  desc: If Congress fails to reauthorize funding to repair our crumbling infrastructure by September 30, it will have very real consequences for all 50 states.
-  img: roads-and-bridges.jpg
-  url: http://awolfe76.github.io/the-state-of-our-roads-and-bridges/
+- title: Connect America Phase II – Initial Eligible Areas Map
+  subtitle: Based on round 8 State Broadband Initiative Data (data as of June 2013)
+  desc: This map identifies the areas that have been initially determined to be eligible for ongoing Phase II Connect America support.
+  img: cost-model-map.jpg
+  url: http://fccdata.github.io/cost_model_map/
   with: Mike Byrne, Eric Spry
   skills: Design, Development
-- title: Ambassador Program
-  desc: The FCC Chairman's Ambassador Program was launched in May of 2014, as an invitation to public sector problem-solvers to partner with the FCC.
-  img: fcc-ambassador-program.jpg
-  url: http://awolfe76.github.io/the-state-of-our-roads-and-bridges/
+- title: Modernizing E-Rate 101
+  subtitle: Deliver digital learning to more kids faster
+  desc: The E-Rate program has helped connect nearly all U.S. schools and libraries to affordable telecommunications services. But E-rate rules were written nearly two decades ago when most students only went online at school in computer labs.
+  img: e-rate.jpg
+  url: http://fcc.github.io/modernizing-e-rate-101/
   with: FCC
   skills: Design, Development
-- title: The State of Our Roads and Bridges
-  desc: If Congress fails to reauthorize funding to repair our crumbling infrastructure by September 30, it will have very real consequences for all 50 states. If Congress fails to reauthorize funding to repair our crumbling infrastructure by September 30, it will have very real consequences for all 50 states. If Congress fails to reauthorize funding to repair our crumbling infrastructure by September 30, it will have very real consequences for all 50 states.
-  img: roads-and-bridges.jpg
-  url: http://awolfe76.github.io/the-state-of-our-roads-and-bridges/
+- title: 16th Annual Mobile Wireless Competition Report
+  subtitle: 2011 was the first year that there were more connected devices than people in the United States
+  desc: The Federal Communications Commission (Commission) is required to report annually to Congress on the state of competition in the mobile services marketplace, pursuant to section 332(c)(1)(C) of the Communications Act.
+  img: competition-report-16.jpg
+  url: http://fcc.github.io/competition-reports/mobile-wireless/16/
   with: Mike Byrne, Eric Spry
   skills: Design, Development
-- title: Ambassador Program
-  desc: The FCC Chairman's Ambassador Program was launched in May of 2014, as an invitation to public sector problem-solvers to partner with the FCC.
-  img: fcc-ambassador-program.jpg
-  url: http://awolfe76.github.io/the-state-of-our-roads-and-bridges/
+- title: AM Tower Locator
+  subtitle: Determine if you need to notify any AM Stations prior to building
+  desc: The AM Tower Locator is a tool that allows you to determine whether the construction of a proposed tower requires you to notify AM stations prior to construction.
+  img: am-tower.jpg
+  url: http://fcc.github.io/am-tower-locator/
   with: FCC
   skills: Design, Development
-- title: The State of Our Roads and Bridges
-  desc: If Congress fails to reauthorize funding to repair our crumbling infrastructure by September 30, it will have very real consequences for all 50 states.
-  img: roads-and-bridges.jpg
-  url: http://awolfe76.github.io/the-state-of-our-roads-and-bridges/
-  with: Mike Byrne, Eric Spry
-  skills: Design, Development
 - title: Ambassador Program
+  subtitle: An invitation to public sector problem-solvers
   desc: The FCC Chairman's Ambassador Program was launched in May of 2014, as an invitation to public sector problem-solvers to partner with the FCC.
-  img: fcc-ambassador-program.jpg
-  url: http://awolfe76.github.io/the-state-of-our-roads-and-bridges/
-  with: FCC
-  skills: Design, Development
-- title: The State of Our Roads and Bridges
-  desc: If Congress fails to reauthorize funding to repair our crumbling infrastructure by September 30, it will have very real consequences for all 50 states.
-  img: roads-and-bridges.jpg
-  url: http://awolfe76.github.io/the-state-of-our-roads-and-bridges/
-  with: Mike Byrne, Eric Spry
-  skills: Design, Development
-- title: Ambassador Program
-  desc: The FCC Chairman's Ambassador Program was launched in May of 2014, as an invitation to public sector problem-solvers to partner with the FCC.
-  img: fcc-ambassador-program.jpg
-  url: http://awolfe76.github.io/the-state-of-our-roads-and-bridges/
+  img: fcc-ambassador-program.png
+  url: 
   with: FCC
   skills: Design, Development

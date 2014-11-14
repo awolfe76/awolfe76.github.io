@@ -5,23 +5,21 @@
     <meta charset='UTF-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="{{ site.desc }} - {{ page.desc }}">
+    <meta name="description" content="{{ site.title }} - {{ page.desc }}">
     <meta name="keywords" content="{{ page.keywords }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <link rel="stylesheet" href="/css/styles.css">
   </head>
   <body>
-    <!--<header>
-      <div class="container">
-        <nav>
-          <a href="#blog">Blog</a>
-          <a class="active" href="#port">Work</a>
-          <a href="#about">About</a>
-        </nav>
-        <hgroup>
-          <h1>Hi! I'm {{ site.data.me.name }}.</h1>
-          <h2>I'm a {{ site.data.me.job-title | downcase }} <span>at the</span> <a href="{{ site.data.me.employer.url }}">{{ site.data.me.employer.abbr }}</a>.</h2>
-        </hgroup>
-      </div>
-    </header>-->
+    <header>
+      <!--<nav>
+        <a href="#blog">Blog</a>
+        <a class="active" href="#port">Work</a>
+        <a href="#about">About</a>
+      </nav>-->
+      <hgroup>
+        <h2>{{ site.data.me.name }}</h2>
+        <h4>Web designer/developer</h4>
+      </hgroup>
+    </header>

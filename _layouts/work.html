@@ -1,19 +1,23 @@
 {% include header.html %}
 
 <section class="work group">
-  <h3>Work</h3>
+  <h2>{{ page.title }}</h2>
   <section class="pieces">
     {% for work in site.data.work %}
-    {% assign half = forloop.length | divided_by:2 %}
-    {% if forloop.index0 == half %}
-  </section>
-  <section class="pieces">
-    {% endif %}
     <article class="piece group">
-      <img src="img/work/{{ work.img }}" />
+      <img src="/img/work/{{ work.img }}" />
       <section class="about">
-        <a href="#adsf" title="{{ work.title }}"><h5>{{ work.title }}</h5></a>
+        <h3>{{ work.title }}</h3>
+        {% if work.subtitle %}<h4>{{ work.subtitle }}</h4>{% endif %}
+        <hr>
         <p>{{ work.desc }}</p>
+        <p class="url"> 
+        {% if work.url %}
+        <img src="/img/link-intact.svg" alt="{{ work.title }}"> <a href="{{ work.url }}" title="{{ work.title }}">{{ work.title }}</a>
+        {% else %}
+        <s>In progress</s>
+        {% endif %}
+        </p>
       </section>
     </article>
     {% endfor %}
