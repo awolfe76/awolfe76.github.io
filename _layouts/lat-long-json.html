@@ -1,12 +1,18 @@
-
-</div>
+{% include header.html %}
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12">
+            <div id="json"></div>
+        </div>        
+    </div>
+</div></div>
 
 <div id="footer">
   <div class="container-fluid">
     <div class="row-fluid">
       <div class="span12">
         {% include nav.html %}
-        <div class="social">
+        <div class="pull-right">
           {% include github.html %}
           {% include dribbble.html %}
           {% include twitter.html %}
@@ -31,7 +37,19 @@
 
 <script>
 $(document).ready(function() {
-  //$(".twitter-tweet").css("margin-top", "20px").css("margin-bottom", "20px").css("margin-left", "auto").css("margin-right", "auto");
+    var parts = document.URL.split("?");
+    var latlong = parts[1].split("/");
+    var myurl = "http://www.broadbandmap.gov/broadbandmap/broadband/jun2012/wireline?latitude=+36.0741803&longitude=-105.4886080&format=jsonp";
+    $.ajax({
+        url:myurl,
+        dataType: 'jsonp',
+        success:function(jsonp) {
+            $("#json").html(JSON.stringify(jsonp));
+        },
+        error:function(){
+            $("#json").html("Something went terribly wrong.");
+        }
+    });
 }); 
 </script>
 
