@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"max",
+				"max-width"
+			],
+			[
 				"border",
 				"border"
 			],
@@ -155,7 +159,7 @@
 			"file": "css/awolfe76.github.io.css",
 			"settings":
 			{
-				"buffer_size": 3254,
+				"buffer_size": 3928,
 				"line_ending": "Unix"
 			}
 		},
@@ -163,7 +167,7 @@
 			"file": "_layouts/work.html",
 			"settings":
 			{
-				"buffer_size": 2879,
+				"buffer_size": 734,
 				"line_ending": "Unix"
 			}
 		},
@@ -171,7 +175,15 @@
 			"file": "_includes/footer.html",
 			"settings":
 			{
-				"buffer_size": 4060,
+				"buffer_size": 14,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_scss/_layout.scss",
+			"settings":
+			{
+				"buffer_size": 1721,
 				"line_ending": "Unix"
 			}
 		}
@@ -462,7 +474,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -470,15 +482,15 @@
 					"file": "css/awolfe76.github.io.css",
 					"settings":
 					{
-						"buffer_size": 3254,
+						"buffer_size": 3928,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2806,
-								2810
+								0,
+								0
 							]
 						],
 						"settings":
@@ -506,6 +518,10 @@
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -532,7 +548,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2348.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -542,15 +558,15 @@
 					"file": "_layouts/work.html",
 					"settings":
 					{
-						"buffer_size": 2879,
+						"buffer_size": 734,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								57,
-								57
+								61,
+								61
 							]
 						],
 						"settings":
@@ -578,6 +594,10 @@
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -614,15 +634,15 @@
 					"file": "_includes/footer.html",
 					"settings":
 					{
-						"buffer_size": 4060,
+						"buffer_size": 14,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3218,
-								3218
+								0,
+								0
 							]
 						],
 						"settings":
@@ -677,6 +697,82 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 1577.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_scss/_layout.scss",
+					"settings":
+					{
+						"buffer_size": 1721,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								107,
+								107
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 48.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

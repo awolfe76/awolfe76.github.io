@@ -1,10 +1,9 @@
 {% include header.html %}
 
-<section class="work group">
-  <h2>{{ page.title }}</h2>
-  <section class="pieces">
+  <!--<h2>{{ page.title }}</h2>-->
     {% for work in site.data.work %}
-    <article class="piece group">
+    <article class="pieces group">
+      <div class="piece">
       <img src="/img/work/{{ work.img }}" />
       <section class="about">
         <h3>{{ work.title }}</h3>
@@ -19,9 +18,8 @@
         {% endif %}
         </p>
       </section>
+    </div>
     </article>
     {% endfor %}
-  </section>
-</section>
 
 {% include footer.html %}
