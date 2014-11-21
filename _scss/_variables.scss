@@ -1,9 +1,14 @@
 $dark: #111;
 $light: #fff;
 
-$link: #0074d9;
-$hover: #ff4136;
-$visited: #b10dc9;
+$first: #0074d9;
+$second: #7fdbff;
+$third: #ff4136;
+$fourth: #b10dc9;
+$fifth: #2ecc40;
 
-$action: #7fdbff;
-$highlight: #7fdbff;
+$link: $first;
+$hover: $third;
+$visited: $fourth;
+
+$action: $fifth;

@@ -21,9 +21,8 @@ body {
     padding: 50px 20px;
   }
   &:nth-child(even) {
-    background: #f5f5f5;
+    background: lighten($dark, 90);
     .piece {
-      background: #f5f5f5;
       flex-direction: row-reverse;
 
       .about {
@@ -98,7 +97,7 @@ body {
 
 hr {
   border: none;
-  border-top: 2px solid $action;
+  border-top: 2px solid $second;
   margin: 20px 0;
   width: 25px;
 }

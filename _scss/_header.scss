@@ -1,6 +1,6 @@
 header {
   margin: 0 auto;
-  padding: 25px;
+  padding: 25px 0 30px;
   text-align: center;
   width: 100%;
   max-width: 1000px;
@@ -21,11 +21,12 @@ header {
     margin: 0;
   }
   h6 {
-    font-family: "Open Sans";
+    color: $third;
+    font-family: "Titillium Web";
     font-size: 40px;
     font-weight: 700;
-    line-height: 1;
-    margin: 10px 0 0;
+    line-height: .5;
+    margin: 0 0 10px 0;
     -webkit-transform: rotate(45deg);
     -moz-transform:    rotate(45deg);
     -ms-transform:     rotate(45deg);

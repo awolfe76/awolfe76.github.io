@@ -26,6 +26,13 @@
   url: http://fcc.github.io/modernizing-e-rate-101/
   with: FCC
   skills: Design, Development
+- title: E-rate Maps of Fiber Connectivity to Schools and Libraries
+  subtitle: Today, virtually all schools and libraries have Internet access
+  desc: This is an interactive map that shows, by School District, the percent of public schools with fiber connectivity sized by number of students. It does not show what percent of schools within a district actually subscribe to high-speed fiber.
+  img: e-rate-map.png
+  url: http://fccdata.github.io/erate-map/
+  with: FCC
+  skills: Design, Development
 - title: 16th Annual Mobile Wireless Competition Report
   subtitle: 2011 was the first year that there were more connected devices than people in the United States
   desc: The Federal Communications Commission (Commission) is required to report annually to Congress on the state of competition in the mobile services marketplace, pursuant to section 332(c)(1)(C) of the Communications Act.
