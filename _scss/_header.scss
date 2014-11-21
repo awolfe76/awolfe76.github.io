@@ -1,11 +1,11 @@
 header {
   margin: 0 auto;
-  padding: 25px 0 30px;
+  padding: 25px 0;
   text-align: center;
   width: 100%;
   max-width: 1000px;
   @media (min-width: 600px) {
-    padding: 25px 0;
+    padding: 25px 0 30px;
   }
   h2 {
     font-family: "Open Sans";
