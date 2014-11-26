@@ -8,11 +8,11 @@ permalink: /posts/agile-development-process.html
 ---
 I had dabbled with an [Agile Development](http://en.wikipedia.org/wiki/Agile_software_development) approach before. A few of my old teams had implemented scrums, but the idea never really took.
 
-### A little bit of training
+#### A little bit of training
 
 A few months ago I was lucky enough to take part in a week long course on Agile, its methods, and the ideas behind it. The key to this course, at least for me, was the instructor. He practice what he preached, was enthusiastic, and even taught the course using an Agile approach. I say "lucky" because I loved it, I got it, and I wanted to start using it.
 
-### Implementing
+#### Implementing
 
 Luckily a small team at the FCC had a project in the works so we decided to make it our Agile test project. Here is a simplified version of what we have done to this point:
 
@@ -27,7 +27,7 @@ Luckily a small team at the FCC had a project in the works so we decided to make
 
 We have been using [Trello](http://trello.com) for our story board, [Github](http://github.com) to for our code versioning, and [Github Issues](https://github.com/blog/831-issues-2-0-the-next-generation) to track our issues.
 
-### Status
+#### Status
 
 Our project is running very smoothly and we are currently way ahead of schedule. I can't help but think that Agile is at least part of the reason. We are learning more about the process as we go and how we can tweak it to suit <strong>our teams</strong> needs; Agile is (and should be) flexible. More to come as we continue the project.
 

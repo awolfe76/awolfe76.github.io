@@ -1,22 +1,7 @@
-{% include header.html %}
-  <div class="container-fluid">
-        <div class="row-fluid">
-            <div class="span12">
-                {% for post in site.posts %}
-                    {% if forloop.index <= 5 %}
-                        <hgroup>
-                            <h1><a href="{{ post.permalink }}">{{ post.title }}</a></h1>
-                        </hgroup>
-                        <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
-                        {{ post.desc }}
-                    {% endif %}
-                {% endfor %}
-            </div>        
-        </div>
-        <div class="row-fluid">
-            <div class="span12">
-                <a class="btn archive" href="/archives.html">Archives</a>
-            </div>
-        </div>
-    </div>
+{% include index-header.html %}
+  <h6 style="top: 50px; left: 50px; position: absolute;">+</h6>
+  <hgroup style="bottom: 50px; color: #fff; font-family: 'Open Sans'; font-weight: 400; left: 50px; position: absolute;">
+    <h1 style="font-size: 22px; font-weight: 700; text-transform: uppercase;">Andrew Wolfe</h1>
+    <h2 style="font-size: 16px; font-weight: 400;">Web Designer and Developer</h2>
+  </hgroup>
 {% include footer.html %}

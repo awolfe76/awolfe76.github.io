@@ -10,7 +10,7 @@ In [Part 2 of the Agile Development process](/posts/using-github-and-github-issu
 
 So now for the new, and hopefully improved, workflow. Here is what I have proposed to my team:
 
-### Change Management (CM) Process
+#### Change Management (CM) Process
 
 - Create cards for tasks, the backlog, on post-it notes.
 - Create issues in Github for the backlog, no labels.

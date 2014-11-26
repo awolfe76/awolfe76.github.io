@@ -1,7 +1,8 @@
 body {
   color: $dark;
   font-family: "Merriweather";
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 a:link {
@@ -18,7 +19,7 @@ a:hover {
 }
 
 p {
-  margin: 0 0 20px;
+  margin: 0 0 25px;
 }
 
 .work h2 {
@@ -27,13 +28,15 @@ p {
 h3 {
   font-family: "Open Sans";
   font-size: 20px;
-  font-weight: 600;
-  line-height: 1;
+  font-weight: 300;
+  line-height: 1.2;
   margin: 5px 0;
   position: relative;
-  text-transform: uppercase;
   @media (min-width: 600px) {
-    font-size: 24px;
+    font-size: 32px;
     margin: 0 0 5px 0;
   }
+}
+h4 {
+  font-family: "Merriweather";
 }

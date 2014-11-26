@@ -1,14 +1,16 @@
 $dark: #111;
 $light: #fff;
 
-$first: #0074d9;
-$second: #7fdbff;
-$third: #ff4136;
-$fourth: #b10dc9;
-$fifth: #2ecc40;
+$first: #0074d9;    // blue
+$second: #ff4136;   // red
+$third: #b10dc9;    // purple
+$fourth: #2ecc40;   // green
+$fifth: #ffdc00;    // yellow
+$sixth: #ff851b;    // orange
+$seventh: #9e7d63;  // brown
 
 $link: $first;
-$hover: $third;
-$visited: $fourth;
+$hover: $second;
+$visited: $third;
 
-$action: $fifth;
+$action: $fourth;

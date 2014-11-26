@@ -2,6 +2,16 @@ body {
   background: $light;
 }
 
+.border-top {
+  background-image:
+    linear-gradient(
+      90deg, 
+      $fifth, $sixth, $second
+    );
+  height: 3px;
+  width: 100%;
+}
+
 .work {
   background: $light;
   border-top: 2px solid $action;
@@ -53,9 +63,10 @@ body {
   }
   h4 {
     font-family: "Open Sans";
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 400;
     margin: 0;
+    line-height: 1.2;
   }
   img {
     border-radius: 0 0 2px 2px;
@@ -72,18 +83,67 @@ body {
   
 }
 
-.url {
-  color: lighten($dark, 65);
-  font-size: 12px;
-  margin: 25px 0;
+.piecex {
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  @media (min-width: 600px) {
+    /*display: flex;*/
+  }
+  .about {
+    font-size: 16px;
+    padding: 0;
+    width: 100%;
+    p {
+      width: 70%;
+    }
+    p:first-of-type {
+      font-size: 20px;
+    }
+    @media (min-width: 600px) {
+      padding: 0;
+    }
+  }
+  h4 {
+    font-size: 20px;
+    margin: 20px 0 10px;
+    line-height: 1.2;
+  }
+  img {
+    border-radius: 2px;
+    clear: right;
+    float: right;
+    margin: 0 0 20px 5%;
+    position: relative;
+    width: 40%;
+    max-width: 100%;
+  }
+  /*@media (min-width: 600px) {
+    img {
+      width: 40%;
+      max-width: 40%;
+    }
+  }*/
+  
+  
+}
 
+.url {
+  color: lighten($dark,40);
+  font-size: 12px;
+  &:first-of-type {
+    margin: 15px 0 5px;
+  }
+  
   a:link, a:visited {
-    border-bottom: 2px solid $link;
-    color: $dark;
+    color: lighten($link,30);
     padding: 0;
   }
   a:hover {
-    border-bottom: none;
+    color: lighten($hover,10);
     text-decoration: none;
   }
   img {
@@ -97,12 +157,41 @@ body {
 
 hr {
   border: none;
-  border-top: 2px solid $second;
-  margin: 20px 0;
-  width: 25px;
+  border-top: 1px solid lighten($dark, 85);
+  margin: 40px 0;
+  width: 100px;
 }
 p {
   color: lighten($dark, 20);
   line-height: 1.6;
-  margin: 10px 0 0;
+  margin: 0 0 20px;
+}
+.github {
+  fill: #333;
+  transition: .75s;
+  -moz-transition: .75s; /* Firefox 4 */
+  -webkit-transition: .75s; /* Safari and Chrome */
+  -o-transition: .75s; /* Opera */
+}
+.dribbble {
+  fill: #EA548C;
+  transition: .75s;
+  -moz-transition: .75s; /* Firefox 4 */
+  -webkit-transition: .75s; /* Safari and Chrome */
+  -o-transition: .75s; /* Opera */
+}
+.twitter {
+  fill: #00BBF5;transition: .75s;
+  -moz-transition: .75s; /* Firefox 4 */
+  -webkit-transition: .75s; /* Safari and Chrome */
+  -o-transition: .75s; /* Opera */
+}
+.github:hover {
+  fill: #000000;
+}
+.dribbble:hover {
+  fill: #000000;
+}
+.twitter:hover {
+  fill: #000000;
 }

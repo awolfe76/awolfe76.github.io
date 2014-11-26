@@ -1,25 +1,38 @@
 {% include header.html %}
-
-  <!--<h2>{{ page.title }}</h2>-->
-    {% for work in site.data.work %}
-    <article class="pieces group">
-      <div class="piece">
-      <img src="/img/work/{{ work.img }}" />
-      <section class="about">
-        <h3>{{ work.title }}</h3>
-        {% if work.subtitle %}<h4>{{ work.subtitle }}</h4>{% endif %}
-        <hr>
-        <p>{{ work.desc }}</p>
-        <p class="url"> 
-        {% if work.url %}
-        <img src="/img/link-intact.svg" alt="{{ work.title }}"> <a href="{{ work.url }}" title="{{ work.title }}">{{ work.title }}</a>
-        {% else %}
-        <s>In progress</s>
-        {% endif %}
-        </p>
-      </section>
+  <article class="pieces group" style="background: #fff;">
+    <div class="piecex group" style="width: 100%; max-width: 1200px; margin: 0 auto;">
+      <div style="width: 75%; float: left; padding-right: 100px;">
+        {% assign sorted = site.pages | sort: 'order' | reverse %}
+        {% for firstwork in sorted limit:1 %}
+          <section class="">
+            <h3 style="font-family: Merriweather; font-weight: 700; font-style: italic">{{ firstwork.title }}</h3>
+            {% if firstwork.subtitle %}<h4 style="font-family: Merriweather; font-style: italic">{{ firstwork.subtitle }}</h4>{% endif %}
+            <p class="url"> 
+            {% if firstwork.link %}
+            <a href="{{ firstwork.link }}" title="{{ firstwork.title }}">{{ firstwork.link }}</a>
+            {% else %}
+            <s>In progress</s>
+            {% endif %}
+            {% if firstwork.skills %}
+            <p class="url">Skills used: {% for skill in firstwork.skills %}<strong>{{ skill }}</strong>{% if forloop.last != true %}, {% endif %}{% endfor %}</p>
+            {% endif %}
+            </p>
+            <hr>
+          </section>
+          <section class="about">
+            <img src="/img/work/{{ firstwork.img }}" />
+            {{ firstwork.content | markdownify }}
+          </section>
+        {% endfor %}
+      </div>
+      <div style="width: 25%; float: left;">
+        <h6 style="font-size: 11px; margin-top: 0; letter-spacing: 1px; text-transform: uppercase; font-weight: 800; font-family: 'Open Sans';">Work</h6>
+        {% for work in sorted %}
+          {% if work.category == 'work' %}
+            <a href="{{ work.url }}" style="color: #111; {% if page.url == work.url or forloop.first %}color: #ccc;{% endif %}"><h3 style="font-family: Merriweather; font-size: 14px; font-weight: 400; margin: 0 0 20px;">{{ work.title }}</h3></a>
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
-    </article>
-    {% endfor %}
-
+  </article>
 {% include footer.html %}

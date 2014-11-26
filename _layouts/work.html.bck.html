@@ -1,0 +1,25 @@
+{% include header.html %}
+
+  <!--<h2>{{ page.title }}</h2>-->
+    {% for work in site.data.work %}
+    <article class="pieces group">
+      <div class="piece">
+      <img src="/img/work/{{ work.img }}" />
+      <section class="about">
+        <h3>{{ work.title }}</h3>
+        {% if work.subtitle %}<h4>{{ work.subtitle }}</h4>{% endif %}
+        <hr>
+        <p>{{ work.desc }}</p>
+        <p class="url"> 
+        {% if work.url %}
+        <img src="/img/link-intact.svg" alt="{{ work.title }}"> <a href="{{ work.url }}" title="{{ work.title }}">{{ work.title }}</a>
+        {% else %}
+        <s>In progress</s>
+        {% endif %}
+        </p>
+      </section>
+    </div>
+    </article>
+    {% endfor %}
+
+{% include footer.html %}

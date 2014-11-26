@@ -4,7 +4,7 @@ title: Designing the State Sequester Project
 desc: Mike decided, with a few others, to make a point and prove that publishing and using this data could be done quickly and cheaply; actually it took roughly 24 hours (that's fast) and turned out to be <strong>COMPLETELY FREE!!! :)</strong>
 date: March 5, 2013
 
-permalink: /posts/designing-the-state-sequester-project.html
+permalink: /blog/designing-the-state-sequester-project/
 ---
 <hr>
 

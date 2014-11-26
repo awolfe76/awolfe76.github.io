@@ -2,7 +2,7 @@
 # make Jekyll read this
 ---
 
-@import url(http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700|Open+Sans:400,600,800);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic,900|Open+Sans:300,400,600,800);
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web:900&text=%2b);
 @import "variables";
 @import "reset";
@@ -11,3 +11,4 @@
 @import "layout";
 @import "header";
 @import "buttons";
+@import "footer";
