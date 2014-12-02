@@ -5,6 +5,7 @@
         {% assign sorted = site.pages | sort: 'order' | reverse %}
         {% for firstwork in sorted limit:1 %}
           <section class="">
+            <h6 style="font-size: 11px; margin-top: 0; letter-spacing: 1px; text-transform: uppercase; font-weight: 800; font-family: 'Open Sans';">Latest Work</h6>
             <h3 style="font-family: Merriweather; font-weight: 700; font-style: italic">{{ firstwork.title }}</h3>
             {% if firstwork.subtitle %}<h4 style="font-family: Merriweather; font-style: italic">{{ firstwork.subtitle }}</h4>{% endif %}
             <p class="url"> 
@@ -26,7 +27,7 @@
         {% endfor %}
       </div>
       <div style="width: 25%; float: left;">
-        <h6 style="font-size: 11px; margin-top: 0; letter-spacing: 1px; text-transform: uppercase; font-weight: 800; font-family: 'Open Sans';">Work</h6>
+        <h6 style="font-size: 11px; margin-top: 0; letter-spacing: 1px; text-transform: uppercase; font-weight: 800; font-family: 'Open Sans';">More Work</h6>
         {% for work in sorted %}
           {% if work.category == 'work' %}
             <a href="{{ work.url }}" style="color: #111; {% if page.url == work.url or forloop.first %}color: #ccc;{% endif %}"><h3 style="font-family: Merriweather; font-size: 14px; font-weight: 400; margin: 0 0 20px;">{{ work.title }}</h3></a>

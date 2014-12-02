@@ -23,7 +23,7 @@
         </section>
       </div>
       <div style="width: 25%; float: left;">
-        <h6 style="font-size: 11px; margin-top: 0; letter-spacing: 1px; text-transform: uppercase; font-weight: 800; font-family: 'Open Sans';">Work</h6>
+        <h6 style="font-size: 11px; margin-top: 0; padding: 0 2px; letter-spacing: 1px; text-transform: uppercase; font-weight: 800; font-family: 'Open Sans';">More Work</h6>
         {% assign sorted = site.pages | sort: 'order' | reverse %}
         {% for work in sorted %}
           {% if work.category == 'work' %}

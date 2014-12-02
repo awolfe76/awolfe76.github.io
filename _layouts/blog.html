@@ -3,6 +3,7 @@
 <article class="pieces group" style="background: #fff;">
   <div class="piecex group" style="width: 100%; max-width: 1200px; margin: 0 auto;">
     <div style="width: 75%; float: left; padding-right: 100px;">
+      <h6 style="font-size: 11px; margin-top: 0; letter-spacing: 1px; text-transform: uppercase; font-weight: 800; font-family: 'Open Sans';">Latest Post</h6>
       {% for firstpost in site.posts limit:1 %}
         <section class="">
           <h3 style="font-family: Merriweather; font-weight: 700; font-style: italic">{{ firstpost.title }}</h3>
@@ -18,11 +19,12 @@
     </div>
 
     <div style="width: 25%; float: left;">
-      <h6 style="font-size: 11px; margin-top: 0; letter-spacing: 1px; text-transform: uppercase; font-weight: 800; font-family: 'Open Sans';">Blog</h6>
+      <h6 style="font-size: 11px; margin-top: 0; letter-spacing: 1px; text-transform: uppercase; font-weight: 800; font-family: 'Open Sans';">More Posts</h6>
       {% for post in site.posts %}
         <a href="{{ post.url }}" style="color: #111; {% if page.url == post.url or forloop.first %}color: #ccc;{% endif %}"><h3 style="font-family: Merriweather; font-size: 14px; font-weight: 400; margin: 0 0 20px;">{{ post.title }}</h3></a>
       {% endfor %}
     </div>
   </div>
 </article>
+
 {% include footer.html %}
