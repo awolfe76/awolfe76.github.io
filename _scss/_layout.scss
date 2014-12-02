@@ -6,7 +6,8 @@ body {
   background-image:
     linear-gradient(
       90deg, 
-      lighten($first, 20), $first, lighten($first, 40)
+      /*$third, $eighth, $first*/
+      $eighth, $second, $fourth
     );
   height: 3px;
   width: 100%;
